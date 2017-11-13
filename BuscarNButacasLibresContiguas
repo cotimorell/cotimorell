@@ -1,0 +1,27 @@
+    private static int BuscarNButacasLibresContiguas(boolean[] butacas, int n) {
+        int posicion = 0;
+        int libre
+        boolean finalizado=false;
+//        System.out.println("Ingrese la cantidad de butacas que necesita:");
+//        n = teclado.nextInt();
+        while ((posicion + n - 1) < butacas.length) && finalizado == false)) {
+            libre = 0;
+            
+            while ((butacas[posicion] == false) && (butacas[posicion+1] == false)&& (finalizado==false)){
+                posicion++;
+                libre = libre ++
+                if (libres+1 == n){
+                    finalizado=true;
+                }
+            }
+            if (finalizado = false){
+                posicion++
+            }
+            
+        }
+        return posicion;
+        
+ //       for (i = posicion - n + 1; i <= posicion; i++){
+               
+        }
+        
